@@ -4,7 +4,7 @@ Programs On Seraching and Sorting.
 
 ### Prerequisites
 
-CodeBlocks
+- CodeBlocks
 
 ## *Dev Name*
 
