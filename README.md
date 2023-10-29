@@ -1,8 +1,11 @@
-<h1>ADA_LAB</h1>
-<p>PROGRAMS</p>
+# ADA
 
-<h2>SEARCHING</h2>
-<ul>
-    <li>BFS</li>
-    <li>DFS</li>
-</ul>
+Programs On Seraching and Sorting.
+
+### Prerequisites
+
+CodeBlocks
+
+## *Dev Name*
+
+[Ravi Raghavendra G S](https://github.com/Ravi191203)
