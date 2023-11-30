@@ -1,3 +1,4 @@
+//PRIM'S MST
 #include<stdio.h>
 int mat[20][20];
 int n,e,i,j,u,v,weight,de=0,visit[20]={0},src,min,tc=0;
