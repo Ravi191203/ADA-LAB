@@ -37,3 +37,26 @@ int main()
 		}  
 	}
 }
+
+//change the array & search type to your liking
+int binarySearch(unsigned long *array, int first, int last,unsigned long search){
+	last = last - 1;
+	while (first <= last) 
+	{
+		int middle = (first+last)/2;
+		if (array[middle] < search)
+		{
+			first = middle + 1;
+		}    
+		else if (array[middle] > search) 
+		{
+			last = middle - 1;
+		}
+		else
+		{
+			return middle;			
+		}  
+	}
+
+	return -1; //no match
+}
