@@ -1,3 +1,4 @@
+//KNAPSACK PROBLEM
 #include<stdio.h>
 int w[20],p[20];
 float r[20];
