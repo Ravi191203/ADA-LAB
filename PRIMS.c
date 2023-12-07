@@ -71,3 +71,66 @@ void print() //To Avoid Repeating the code of to print matrix, when function cal
         printf("\n");
     }
 }
+
+/*OUTPUT : 
+Enter the no.of vertices
+6
+Enter the number of edges
+8
+MATRIX IS
+9999    9999    9999    9999    9999    9999
+9999    9999    9999    9999    9999    9999
+9999    9999    9999    9999    9999    9999
+9999    9999    9999    9999    9999    9999
+9999    9999    9999    9999    9999    9999
+9999    9999    9999    9999    9999    9999
+Enter the connections 1
+1 2
+Enter the weight 1
+70
+Enter the connections 2
+2 4
+Enter the weight 2
+90
+Enter the connections 3
+4 6
+Enter the weight 3
+400
+Enter the connections 4
+6 5
+Enter the weight 4
+170
+Enter the connections 5
+5 3
+Enter the weight 5
+190
+Enter the connections 6
+3 1
+Enter the weight 6
+50
+Enter the connections 7
+3 2
+Enter the weight 7
+150
+Enter the connections 8
+3 4
+Enter the weight 8
+70
+MATRIX IS
+9999    70      50      9999    9999    9999
+70      9999    150     90      9999    9999
+50      150     9999    70      190     9999
+9999    90      70      9999    9999    400
+9999    9999    190     9999    9999    170
+9999    9999    9999    400     170     9999
+enter the source
+1
+1 TO 3 = 50
+1 TO 2 = 70
+3 TO 4 = 70
+3 TO 5 = 190
+5 TO 6 = 170
+Total Cost is 550
+
+Process returned 0 (0x0)   execution time : 74.680 s
+Press any key to continue.*/
