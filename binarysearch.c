@@ -39,7 +39,7 @@ int main()
 }
 
 //change the array & search type to your liking
-int binarySearch(unsigned long *array, int first, int last,unsigned long search){
+int binarySearch(int array[], int first, int last,int search){
 	last = last - 1;
 	while (first <= last) 
 	{
