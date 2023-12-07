@@ -58,3 +58,23 @@ int check(float value)
     return(i);
 }
 
+
+/*
+Enter the capacity
+40
+Enter the objects
+3
+Enter the weight 1 object       20
+Enter the profit 1 object       30
+Enter the weight 2 object       25
+Enter the profit 2 object       40
+Enter the weight 3 object       10
+Enter the profit 3 object       35
+x[1]=1.000000
+x[2]=1.000000
+x[3]=0.250000
+total profit=82.500000
+
+Process returned 0 (0x0)   execution time : 84.057 s
+Press any key to continue.
+    */
