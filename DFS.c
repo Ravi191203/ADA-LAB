@@ -39,3 +39,44 @@ int main()
         printf("Graph is not Connected");
     return 0;
 }
+
+/*
+OUTPUT :
+The program you provided checks whether a graph is connected or not. 
+To get output, you need to provide the following input:
+
+1. Number of vertice (n):This is the total number of nodes in the graph. 
+Enter an integer value for this.
+2. Adjacency matrix: This is a square matrix of size n x n, where each element (i, j) represents the presence of an edge between nodes i and j.
+Enter 1 if there is an edge, and 0 if there is no edge.
+
+Here's an example of how to provide input:
+
+Enter the number of vertice: 4
+
+Enter the Adjacency matrix :
+
+1 0 1 0
+0 1 1 1
+1 1 0 1
+0 1 1 0
+
+This will result in the program checking if the graph with 4 vertice and the given adjacency matrix is connected.
+
+------------------------------------------------------------------------------------------------------
+
+Enter the number of vertice: 4
+
+Enter the Adjacency matrix :
+
+1 0 0 0
+0 1 0 0
+0 0 1 0
+0 0 0 1
+
+This code will output the following
+
+Graph is not 
+
+As you can see, this graph is not connected because there is no path between node 0 and nodes 2 and 3.
+*/
